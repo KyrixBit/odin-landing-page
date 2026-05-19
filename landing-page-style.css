@@ -2,6 +2,36 @@
     display: flex;
 }
 
+.japan-image {
+    width: 300px; height: 300px; justify-content: space-between
+}
+
 .main_part {
     display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 48px;
+}
+
+.main-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.client-text{
+    display: flex;
+    justify-content: center;
+}
+
+.client-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+.client-img {
+    width: 200px; height: 200px;
 }
