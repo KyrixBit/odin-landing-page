@@ -70,8 +70,10 @@ body {
 }
 
 .sign-button{
-    background-color: rgb(14, 189, 14); border: 5px solid rgb(14, 189, 14); border-radius: 10px;
+    background-color: rgb(14, 189, 14);
+    border: 5px solid rgb(14, 189, 14); border-radius: 10px;
     padding: 5px; width: 110px;
+    cursor: pointer
 }
 
 .client-text{
@@ -114,26 +116,49 @@ body {
 .bg-phrase {
     background-color: #E5E7EB;
     width: 100%;
+    margin-bottom: 50px ;
 }
 
 .phrase-container {
     display: flex;
-    max-width: 500px;
-    justify-content: center;
-    margin-bottom: 200px;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1115px;
+    margin: 0 auto
 }
 
 .phrase {
-    font-weight: 300; font-size: 36px; color: #1F2937;
+    font-weight: 300; font-size: 36px; color: #1F2937; font-style: italic;
 }
 
-.author-text {
-    font-weight: 500;
+.author-phrase {
+    font-weight: bold; font-size: 24px; align-self: center;
 }
 
 .ad-container {
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #388238;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.ad-title {
+    font-size: 26px; font-weight: bold; color:#E5E7EB
+}
+
+.ad-text {
+    font-size:20px; font-weight: 400;
+}
+
+.action-button {
+    border: 2px solid #E5E7EB; border-radius: 5px;
+    background-color: transparent; color: #E5E7EB;
+    padding: 10px 30px;
+    cursor: pointer;
 }
 
 .copyright-container {
